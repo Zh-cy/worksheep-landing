@@ -4,100 +4,97 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Worksheep – Startseite</title>
-    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="icon" href="./resources/logo.png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-white text-gray-800 font-sans">
 
 <!-- Header Navigation -->
 <header class="bg-gray-100 shadow-sm sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
-        <a href="index.html" class="inline-flex items-center space-x-2">
-            <img src="logo.png" alt="Worksheep UG Logo" class="h-10"/>
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center p-4 space-y-2 sm:space-y-0">
+        <a href="./" class="inline-flex items-center space-x-1">
+            <img src="./resources/logo.png" alt="Worksheep UG Logo" class="h-10"/>
             <span class="text-xl font-semibold text-gray-800">Worksheep</span>
         </a>
-        <nav class="space-x-6 text-m">
-            <a href="ueberunternehmen.html" class="hover:underline">Über Worksheep</a>
-            <a href="fuerunternehmen.html" class="hover:underline">Für Unternehmen</a>
-            <a href="fuertalente.html" class="hover:underline">Für Talente</a>
-            <a href="#kontakt" class="hover:underline">Kontakt</a>
+        <nav class="flex justify-center gap-x-3 text-xs sm:text-sm md:text-base">
+            <a href="./ueber-unternehmen/" class="hover:underline">Über Worksheep</a>
+            <a href="./fuer-unternehmen/" class="hover:underline">Für Unternehmen</a>
+            <a href="./fuer-talente/" class="hover:underline">Für Talente</a>
+            <a href="./#kontakt" class="hover:underline">Kontakt</a>
         </nav>
     </div>
 </header>
 
 <!-- Hero -->
-<section class="relative bg-cover bg-center py-32 text-left px-6 text-white"
-         style="background-image: url('background.jpg');">
+<section class="relative bg-cover bg-center py-[1rem] sm:py-[5rem] text-white px-6"
+         style="background-image: url('./resources/background.jpg');">
     <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-    <div class="relative max-w-6xl mx-auto text-center px-8 text-white">
-        <h1 class="text-3xl md:text-5xl font-bold tracking-wider leading-[2.0] mb-4">
+    <div class="relative max-w-4xl mx-auto text-center">
+        <h1 class="text-xl sm:text-3xl md:text-4xl font-bold tracking-wide leading-snug mb-4">
             Wir verbinden deutsche Arbeitgeber mit qualifizierten Kandidaten aus China.
         </h1>
-        <p class="text-2xl mb-6 pt-8">kostenfrei für Arbeitgeber, zuverlässig für Kandidaten</p>
+        <p class="text-sm sm:text-l md:text-xl mb-6 pt-4">kostenfrei für Arbeitgeber, zuverlässig für Kandidaten</p>
     </div>
 </section>
 
 <!-- Unternehmen Vorteile -->
-<section class="bg-gray-50 py-20">
-    <div class="max-w-6xl mx-auto px-6">
-        <h2 class="text-3xl font-bold mb-10 text-center">Für Unternehmen – Ihre Vorteile</h2>
-        <div class="grid md:grid-cols-3 gap-8">
+<section class="bg-gray-50 py-[2rem] sm:py-[5rem]">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-xl sm:text-3xl font-bold mb-10 text-center">Für Unternehmen – Ihre Vorteile</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <div class="bg-white p-6 rounded-xl shadow border">
-                <p class="font-bold text-grey-500 mb-2">Keine Kosten, kein rechtliches Risiko</p>
+                <p class="font-bold text-gray-500 mb-2">Keine Kosten, kein rechtliches Risiko</p>
                 <p>Vollständig kostenfreier Service für deutsche Arbeitgeber</p>
             </div>
             <div class="bg-white p-6 rounded-xl shadow border">
-                <p class="font-bold text-grey-500 mb-2">Bewerber mit relevanter Erfahrung oder Ausbildung</p>
+                <p class="font-bold text-gray-500 mb-2">Bewerber mit relevanter Erfahrung oder Ausbildung</p>
                 <p>Vorqualifizierte Fachkräfte aus technischen und handwerklichen Bereichen</p>
             </div>
             <div class="bg-white p-6 rounded-xl shadow border">
-                <p class="font-bold text-grey-500 mb-2">Schnelle Besetzung dank unseres Netzwerks in China</p>
+                <p class="font-bold text-gray-500 mb-2">Schnelle Besetzung dank unseres Netzwerks in China</p>
                 <p>Direkter Zugang zu unserem etablierten Kandidatenpool</p>
             </div>
         </div>
     </div>
 </section>
 
-
 <!-- Für Talente -->
-<section class="bg-white py-20">
-    <div class="max-w-6xl mx-auto px-6">
-        <h2 class="text-3xl font-bold mb-10 text-center">Für Talente – Ihre Chancen</h2>
-        <div class="grid md:grid-cols-3 gap-8">
+<section class="bg-white py-[2rem] sm:py-[5rem]">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-xl sm:text-3xl font-bold mb-10 text-center">Für Talente – Ihre Chancen</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <div class="bg-white p-6 rounded-xl shadow border">
-                <p class="font-bold text-grey-500 mb-2">Maßgeschneiderte Karriereplanung in Deutschland</p>
+                <p class="font-bold text-gray-500 mb-2">Maßgeschneiderte Karriereplanung in Deutschland</p>
                 <p>Individuelle Beratung und Vorbereitung für Ihren beruflichen Weg</p>
             </div>
             <div class="bg-white p-6 rounded-xl shadow border">
-                <p class="font-bold text-grey-500 mb-2">Keine falschen Versprechungen</p>
+                <p class="font-bold text-gray-500 mb-2">Keine falschen Versprechungen</p>
                 <p>Wir konzentrieren uns auf realistische Möglichkeiten und die Umsetzung Ihrer Wünsche</p>
             </div>
             <div class="bg-white p-6 rounded-xl shadow border">
-                <p class="font-bold text-grey-500 mb-2">Umfassende Unterstützung</p>
+                <p class="font-bold text-gray-500 mb-2">Umfassende Unterstützung</p>
                 <p>Begleitung bei Vorbereitung, Bewerbung und Visumsbeantragung</p>
             </div>
         </div>
     </div>
 </section>
 
-
 <!-- Zugang zu den besten Kandidaten -->
-<section class="bg-gray-50 py-20">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-        <h2 class="text-3xl font-bold mb-4">Zugang zu den besten Kandidaten</h2>
-        <p class="text-lg leading-relaxed text-gray-700">
+<section class="bg-gray-50 py-[2rem] sm:py-[5rem]">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-xl sm:text-3xl font-bold mb-4">Zugang zu den besten Kandidaten</h2>
+        <p class="text-base sm:text-lg leading-relaxed text-gray-700">
             Mithilfe von Multichannel-Suche und unserem stetig wachsenden Netzwerk finden wir schnell die
             Kandidat:innen, die wirklich zu Ihrer offenen Position passen
         </p>
     </div>
 </section>
 
-
 <!-- Warum Worksheep -->
-<section class="bg-white py-20">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-        <h2 class="text-3xl font-bold mb-4">Warum Worksheep?</h2>
-        <div class="text-lg leading-relaxed text-gray-700">
+<section class="bg-white py-[2rem] sm:py-[5rem]">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-xl sm:text-3xl font-bold mb-6">Warum Worksheep?</h2>
+        <div class="text-base sm:text-lg leading-relaxed text-gray-700 space-y-2">
             <p>Langjährige Erfahrung und lokales Verständnis in Deutschland.</p>
             <p>Breiter Talentpool in China mit kontinuierlichem Netzwerkausbau.</p>
             <p>Verantwortungsvoller Umgang mit Unternehmen und Bewerbern.</p>
@@ -107,22 +104,18 @@
 </section>
 
 <!-- Kontakt -->
-<section id="kontakt" class="py-20 bg-gray-100">
-    <div class="max-w-6xl mx-auto px-4 text-center">
-        <h2 class="text-2xl font-bold mb-6">Nehmen Sie Kontakt mit uns auf</h2>
-        <p class="mb-2">📧 E-Mail: <a href="mailto:info@worksheep-jobs.de" class="underline">info@worksheep-jobs.de</a>
-        </p>
+<section id="kontakt" class="py-[2rem] sm:py-[5rem] bg-gray-100">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+        <h2 class="text-xl sm:text-2xl font-bold mb-6">Nehmen Sie Kontakt mit uns auf</h2>
+        <p class="mb-2">📧 E-Mail: <a href="mailto:info@worksheep-jobs.de" class="underline">info@worksheep-jobs.de</a></p>
         <p class="mb-2">📞 Telefon: 0162-7070775</p>
-        <!--        <p class="mb-2">🏢 Adresse: [Ihre Firmenadresse in Deutschland]</p>-->
-        <p class="text-sm text-gray-600 mt-6">Donnerstag und Freitag: 10:00–18:00 Uhr erreichbar<br/>Andere Tage bitte
-            per Mail einen Termin vereinbaren</p>
+        <p class="text-sm text-gray-600 mt-6">Donnerstag und Freitag: 10:00–18:00 Uhr erreichbar<br/>Andere Tage bitte per Mail einen Termin vereinbaren</p>
     </div>
 </section>
 
 <!-- Footer -->
 <footer class="text-center text-sm text-gray-500 p-6 border-t">
-    &copy; 2025 Worksheep UG | <a href="impressum.html" class="underline">Impressum</a> | <a href="datenschutz.html"
-                                                                                             class="underline">Datenschutz</a>
+    &copy; 2025 Worksheep UG | <a href="./impressum/" class="underline">Impressum</a> | <a href="./datenschutz/" class="underline">Datenschutz</a>
 </footer>
 
 </body>
